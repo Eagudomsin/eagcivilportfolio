@@ -3,6 +3,7 @@ var decorbox = $(".decor-box");
 var indexh = $(".index").height();
 var circle1 = $(".circle1");
 var circle2 = $(".circle2");
+var circle3 = $(".circle3");
 
 decorbox.height(decorbox.width());
 circle1.height(circle1.width());
