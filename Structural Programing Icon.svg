@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="199" height="146" viewBox="0 0 199 146">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+        font-family: LucidaSans, Lucida Sans;
+        letter-spacing: 0.03em;
+      }
+
+      .cls-1 {
+        font-size: 128px;
+      }
+
+      .cls-2 {
+        font-size: 42px;
+      }
+    </style>
+  </defs>
+  <g id="Structural_Programing_Icon" data-name="Structural Programing Icon" transform="translate(-1489 -1623)">
+    <text id="_" data-name="[" class="cls-1" transform="translate(1489 1742)"><tspan x="0" y="0">[</tspan></text>
+    <text id="_2" data-name="]" class="cls-1" transform="translate(1646 1742)"><tspan x="0" y="0">]</tspan></text>
+    <text id="X_Y_Z_c" data-name="X  Y
+Z  c" class="cls-2" transform="translate(1546 1688)"><tspan x="0" y="0" xml:space="preserve">X  Y</tspan><tspan x="0" y="50" xml:space="preserve">Z  c</tspan></text>
+  </g>
+</svg>
