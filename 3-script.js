@@ -30,3 +30,21 @@ $("#box21").css("bottom",  0);
 $("#box22").css("bottom", - decorbox.width());
 $("#box22").css("right", decorbox.width());
 }, 500);
+
+$("#toexperience").click(function() {
+        if(screen.width > 1023) {
+            $(".exp-chula").addClass("raise-up-desktop");
+            $(".exp-chula").css("animation-duration","1s");
+            $(".exp-itd").addClass("raise-up-desktop");
+            $(".exp-itd").css("animation-duration","1.5s");
+            $(".exp-beca").addClass("raise-up-desktop");
+            $(".exp-beca").css("animation-duration","2s");
+        } else {
+            $(".exp-chula").addClass("left-swipe-mobile");
+            $(".exp-chula").css("animation-duration","1s");
+            $(".exp-itd").addClass("left-swipe-mobile");
+            $(".exp-itd").css("animation-duration","1.5s");
+            $(".exp-beca").addClass("left-swipe-mobile");
+            $(".exp-beca").css("animation-duration","2s");
+        }
+    })
