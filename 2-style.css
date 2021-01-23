@@ -132,7 +132,7 @@
     }
 }
 
-@-webkit-keyframes right-swipe {
+@-webkit-keyframes left-swipe {
     0% {
         right: -100%;
         opacity: 0;
@@ -147,7 +147,7 @@
     }
 }
 
-@keyframes right-swipe {
+@keyframes left-swipe {
     0% {
         right: -100%;
         opacity: 0;
@@ -1963,6 +1963,10 @@ nav ul li a:hover {
     animation: raise-up;
 }
 
-.left-swipe-mobile {
-    animation: right-swipe;
+.blur-in {
+    animation: blur-in;
+}
+
+.left-swipe {
+    animation: left-swipe;
 }

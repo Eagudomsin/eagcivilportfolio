@@ -32,6 +32,12 @@ $("#box22").css("right", decorbox.width());
 }, 500);
 
 $("#toexperience").click(function() {
+            $(".circle2").addClass("blur-in");
+            $(".circle2").css("animation-duration","0.75s");
+            $(".circle1").addClass("blur-in");
+            $(".circle1").css("animation-duration","1.5s");
+            $(".exp-header").addClass("blur-in");
+            $(".exp-header").css("animation-duration","2.25s");
         if(screen.width > 1023) {
             $(".exp-chula").addClass("raise-up-desktop");
             $(".exp-chula").css("animation-duration","1s");
@@ -40,11 +46,20 @@ $("#toexperience").click(function() {
             $(".exp-beca").addClass("raise-up-desktop");
             $(".exp-beca").css("animation-duration","2s");
         } else {
-            $(".exp-chula").addClass("left-swipe-mobile");
-            $(".exp-chula").css("animation-duration","1s");
-            $(".exp-itd").addClass("left-swipe-mobile");
-            $(".exp-itd").css("animation-duration","1.5s");
-            $(".exp-beca").addClass("left-swipe-mobile");
-            $(".exp-beca").css("animation-duration","2s");
+            $(".exp-chula").addClass("blur-in");
+            $(".exp-chula").css("animation-duration","2s");
+            $(".exp-itd").addClass("blur-in");
+            $(".exp-itd").css("animation-duration","2.5s");
+            $(".exp-beca").addClass("blur-in");
+            $(".exp-beca").css("animation-duration","3s");
         }
     })
+
+    $("#toskill").click(function() {
+        $(".skill-header").addClass("blur-in");
+        $(".skill-header").css("animation-duration","1s");
+        $(".skill-container").addClass("left-swipe");
+        $(".skill-container").css("animation-duration","1.5s");
+        $(".myskill").addClass("blur-in");
+        $(".myskill").css("animation-duration","3s");
+})
