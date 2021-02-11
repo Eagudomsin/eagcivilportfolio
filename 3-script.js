@@ -55,11 +55,25 @@ $("#toexperience").click(function() {
         }
     })
 
-    $("#toskill").click(function() {
-        $(".skill-header").addClass("blur-in");
-        $(".skill-header").css("animation-duration","1s");
-        $(".skill-container").addClass("left-swipe");
-        $(".skill-container").css("animation-duration","1.5s");
-        $(".myskill").addClass("blur-in");
-        $(".myskill").css("animation-duration","3s");
+$("#toskill").click(function() {
+    $(".skill-header").addClass("blur-in");
+    $(".skill-header").css("animation-duration","1s");
+    $(".skill-container").addClass("left-swipe");
+    $(".skill-container").css("animation-duration","1.5s");
+    $(".myskill").addClass("blur-in");
+    $(".myskill").css("animation-duration","3s");
+})
+
+$("#toproject").click(function() {
+    $(".project-header").addClass("blur-in");
+    $(".project-header").css("animation-duration","1.5s");
+    $(".project-container-inner1").addClass("blur-in");
+    $(".project-container-inner1").css("animation-duration","2s");
+    $(".project-container-inner2").addClass("blur-in");
+    $(".project-container-inner2").css("animation-duration","2.5s");
+})
+
+$("#tocontact").click(function() {
+    $(".contact-container").addClass("blur-in");
+    $(".contact-container").css("animation-duration","2s");
 })

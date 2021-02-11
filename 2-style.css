@@ -638,7 +638,7 @@ nav ul li a:hover {
     position: absolute;
     z-index: 3;
     left: 12%;
-    top: 10%;
+    top: 5%;
 }
 
 .project-container-outer {
@@ -1553,12 +1553,12 @@ nav ul li a:hover {
     }
     
     .circle1 {
-        width: 40%;
+        width: 35%;
         background-color: #AAFDEC;
         border-radius: 500px;
         position: absolute;
         left: 4%;
-        top: 2%;
+        top: 3%;
     }
     
     .circle1 img {
@@ -1572,7 +1572,7 @@ nav ul li a:hover {
     .circle2 {
         clip-path: circle(50%);
         background-color: #E8F2F4 ;
-        width: 30%;
+        width: 20%;
         position: absolute;
         left: 30%;
         top: 5%;
@@ -1853,11 +1853,11 @@ nav ul li a:hover {
     }
 
     .sub-header h3 {
-        font-size: 0.5em;
+        font-size: 0.7em;
     }
 
     .sub-header h4 {
-        font-size: 0.4em;
+        font-size: 0.6em;
     }
 
     .description-box {
@@ -1890,7 +1890,7 @@ nav ul li a:hover {
     .description p {
         position: relative;
         z-index: 3;
-        font-size: 0.35em;
+        font-size: 0.45em;
     }
 
     .contact {
